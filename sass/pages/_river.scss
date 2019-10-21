@@ -1,0 +1,307 @@
+
+.river-hero{
+	padding-top: 20px;
+	padding-bottom: 215px;
+	h1{
+		font-family: $title;
+		font-size: calc(35px + 4vw);
+		color: #A15B54;
+		font-weight: 900;
+		margin-left: 8%;
+		margin-top: 2vw;
+		position: relative;
+		z-index: 10;
+		-webkit-text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		-moz-text-shadow: 3px35px 3px rgba(1,1,5,0.8);
+		text-shadow: 3px 3px 3px rgba(156,156,165,0.8);
+	}
+	h2{
+		font-family: $title;
+		margin-left: 8%;
+		color: #A15B54;
+		opacity: .6;
+		border-bottom: 3px solid #A15B54;
+		width: 150px;
+	}
+	.river-img{
+		position: absolute;
+		right: 9vw;
+		height: 450px;
+		z-index: 1;
+		margin-top: 0;
+	}
+	.river-img01{
+		position: absolute;
+    top: 26.5vw;
+    right: 56vw;
+    height: 225px; 
+    width: 225px;
+    z-index: 3;
+	}
+}
+
+.river-overview{
+	padding: 100px 0;
+	padding-bottom: 50px;
+	h2{
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(25px + 2vw);
+	}
+	.grey-star{
+		height: 40px;
+	}
+	.overview{
+		margin-top: 50px;
+		margin-left: 5%;
+		padding-right: 5vw;
+		/*margin-right: -2rem;*/
+		h3{
+			font-family: $title;
+			font-weight: 700;
+			margin-bottom: 2vw;
+			font-size: calc(15px + 2vw);
+			color: $dark_red;
+		}
+		p{
+			margin-right: 5rem;
+		}
+	}
+	.chart{
+		.overview-img{
+			margin-top: 5vw;
+	    width: 627px;
+	    height: 325px;
+	    margin-left: -8vw;
+			}
+			h3{
+				font-family: $title;
+				color: $dark_red;
+				font-weight: 900;
+				font-size: calc(10px + 1vw);
+				margin-left: -7vw;
+				margin-top: 2vw;
+				opacity: .75;
+			}
+			li {
+			    list-style-type: none;
+			    margin-left: -8vw;
+			    width: 475px;
+			    font-size: calc(4px + 1vw);
+		}
+		p{
+			margin-left: -4vw;
+		}
+	}
+}
+
+.river-transition{
+	height: 45vh;
+	width: 100%;
+	background: url('/wp-content/uploads/2019/06/Asset-17@3x.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-top: -25px;
+	margin-bottom: -2px;
+	position: relative;
+	z-index: 10;
+	/*margin-left: -1px;*/
+	background-repeat: repeat-x;
+	img{
+		position: absolute;
+		left: 8%;
+		width: 250px;
+		margin-top: 150px;
+		opacity: .5; 
+	}
+
+}
+
+.flycasts{
+	padding: 100px 0;
+	padding-bottom: 25px;
+	background: url('/wp-content/uploads/2019/06/Asset-15.png');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 3;
+	.report-display{
+		width: 85%;
+		margin: 0 auto;
+		margin-top: -50px;
+		position: relative;
+			z-index: 30!important;
+
+		.report-display-item{
+			/*width: 900px;*/
+			
+			height: 200px;
+			margin: 0 auto;
+			background: #fff;
+			background-image: url('/wp-content/uploads/2019/03/FlycastUSA-Denver-Colorado-11.jpg'),url('/wp-content/uploads/2019/03/FlycastUSA-Denver-Colorado-9.jpg'), url('/wp-content/uploads/2019/03/FlycastUSA-Denver-Colorado-10.jpg');
+			background-size: 15%, 15%, 15%;
+			background-position: bottom left, center left, top left;
+			background-repeat: repeat-x;
+			padding: 2rem;
+			border-radius: 2px;
+			h3{
+				font-family: $title;
+				font-weight: 700;
+				/*margin-left: 14vw;*/
+				font-size: calc(25px + 2vw);
+				position: relative; 
+				z-index: 10;
+			}
+			p{
+				/*margin-left: 14vw;*/
+				margin-right: 18vw;
+				position: relative; 
+				z-index: 10;
+			}
+			.fade {
+				height: 100%;
+		    width: 100%;
+		    position: absolute;
+		    z-index: 1;
+		    right: 0;
+		    background: #fff;
+		    opacity: 0.95;
+		    top: 0;
+			}
+		}
+	}
+	.flycast-reports{
+		width: 87%;
+		margin: 0 auto;
+		margin-top: 25px;
+		.report{
+			height: 300px;
+			width: 300px;
+			padding: 2rem;
+			background: rgba(255,255,255,.65);
+			margin: 0 12.5px;
+			border-radius: 2px;
+			h3{
+				font-family: $title;
+				font-weight: 700;
+			}
+		}
+		.report.slick-current{
+			background: rgba(255,255,255,.9);
+		} 
+	}
+}
+
+.river-info{
+	/*margin-top: 50px;*/
+	padding-bottom: 100px;
+	.black-box-info{
+		width: 40%;
+		height: 1025px;
+		background: #2e2e2e;
+		position: absolute;
+		left: 0;
+		z-index: 1;
+	}
+	.info-img{
+		height: 400px;
+		width: 450px;
+		margin-left: 6.5%;
+		margin-top: 7.5%;
+		margin-right: 5rem;
+		position: relative;
+		z-index: 10;
+		-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+	}
+	.map{
+		position: absolute;
+		z-index: 2;
+		margin-top: 35rem;
+		margin-left: 6.5%;
+		-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+	}
+	.info-content{
+		margin-left: 50%;
+		margin-top: -24rem;
+		h2{
+			font-family: $title;
+			font-weight: 900;
+			font-size: calc(20px + 2vw);
+			margin-bottom: 2vw;
+		}
+		h3{
+			font-family: $title;
+			font-weight: 700;
+			color: #A15B54;
+			font-size: calc(13px + 1vw);
+			opacity: .75;
+			margin-left: 2vw;
+		}
+		/*.background{
+			margin-left: 0;
+			margin-top: 2vw;
+		}*/
+		p{
+			font-family: $title;
+			font-weight: 400;
+			font-size: calc(5px + .85vw);
+    	line-height: 20px;
+    	margin-left: 4.5vw;
+		}
+		/*.background-p{
+			margin-left: 2.5vw;
+		}
+		.access{
+			margin-left: 4.5vw;
+		}
+		.access-p{
+			margin-left: 6.5vw;
+		}*/
+	}
+}
+
+.insta{
+	width: 100%;
+	overflow: hidden;
+	padding: 75px 0;
+	#insta-gallery-feed-1 {
+    width: 80%;
+    margin: 40px auto;
+	}
+	.popup-gallery{
+		list-style-type: none;
+		margin-left: 0;
+	}
+	.handle{
+		margin: 0 auto;
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(25px + 2vw); 
+		color: #000;
+	}
+	.instagallery-items{
+		margin-left: 5.5%!important;
+	}
+	.ig-item{
+		padding: 25px!important;
+		margin: -12px!important;
+	}
+}
+
+#river-blog-section{
+	margin-top: 0;
+}
+.red-bg-river{
+	background: #A15B54;
+	height: 115px;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+  top: 548vh;
+
+}

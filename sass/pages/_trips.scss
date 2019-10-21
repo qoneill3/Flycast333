@@ -1,0 +1,414 @@
+
+.trips-header{
+	width: 100%;
+	height: 75vh;
+	overflow: hidden;
+	background: url('/wp-content/uploads/2019/06/Flycast-USA-Denver-Colorado-23.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	.ind-btn-wrap{
+		margin-top: 2rem;
+		position: relative;
+		z-index: 10;
+		width: 145px;
+		padding: 10px 25px;
+		border: 1px solid white;
+		border-radius: 2px;
+	}
+	.red-stripe{
+		height: 15px;
+		background: #a15b54;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		bottom: 35px;
+	}
+}
+
+.trips-intro{
+	padding-top: 100px;
+	padding-bottom: 200px;
+	/*background: linear-gradient(#fff 92%, #ECDEDC 100%);*/
+	overflow: hidden;
+	@media (max-width: 991px){
+		padding-top: 0;
+		padding-bottom: 400px;
+	}
+	@media (max-width: 780px){
+		padding-bottom: 435px;
+	}
+	.content{
+		margin-left: 6%;
+		margin-top: 50px;
+		@media (max-width: 991px){
+			width: 80%;
+			margin: 0 auto;
+		}
+		h2{
+			font-family: $title;
+			font-weight: 900;
+			color: #2e2e2e;
+			font-size: calc(25px + 2vw);
+			text-transform: uppercase;
+		}
+		hr{
+			width: 200px;
+			text-align: left;
+			margin-left: 0;
+			background: #a15b54;
+			height: 3px;
+		}
+		.btn-wrap01{
+			padding: 10px 25px;
+			border: 1px solid #a15b54;
+			border-radius: 2px;
+			margin-left: 0;
+			width: 148px;
+		}
+		.cta{
+			text-align: center;
+			color: #a15b54;;
+			margin: 0 auto;
+			font-family: $title;
+			font-weight: 900;
+		}
+	}
+	.intro-img{
+		height: 375px;
+		width: 350px;
+		position: absolute;
+		right: 25%;
+		border-radius: 3px;
+		-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		@media (max-width: 1329px){
+			right: 20%;
+		}
+		@media (max-width: 991px){
+			height: 275px;
+			width: 250px;
+			right: 45%;
+			margin-top: 21rem;
+		}
+		@media (max-width: 780px){
+			right: 40%;
+			margin-top: 23rem;
+		}
+		@media (max-width: 723px){
+			display: none;
+		}
+	}
+	.intro-video{
+		width: 475px;
+		height: 325px;
+		position: absolute;
+		margin-top: 12rem;
+		right: 10%;
+		z-index: 10;
+		border-radius: 3px;
+		-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		@media (max-width: 1329px){
+			right: 6%;
+		}
+		@media (max-width: 991px){
+			width: 425px;
+			height: 275px;
+			right: 12%;
+			margin-top: 17rem;
+		}
+		@media (max-width: 780px){
+			right: 5%;
+			margin-top: 20rem;
+		}
+		@media (max-width: 723px){
+			margin-top: 22rem;
+			width: 70%;
+			left: 15%;
+		}
+		@media (max-width: 630px){
+			margin-top: 25rem;
+		}
+		@media (max-width: 468px){
+			width: 80%;
+			left: 10%;
+			margin-top: 28rem;
+		}
+		@media (max-width: 410px){
+			margin-top: 30rem;
+		}
+	}
+	.video-overlay{
+		width: 475px;
+		height: 325px;
+		position: absolute;
+		margin-top: 12rem;
+		right: 10%;
+		z-index: 11;
+		background: #000;
+		opacity: .65;
+		border-radius: 3px;
+		transition: all ease 3s;
+		@media (max-width: 1329px){
+			right: 6%;
+		}
+		@media (max-width: 991px){
+			width: 425px;
+			height: 275px;
+			right: 12%;
+			margin-top: 17rem;
+		}
+		@media (max-width: 780px){
+			right: 5%;
+			margin-top: 20rem;
+		}
+		@media (max-width: 723px){
+			margin-top: 22rem;
+			width: 70%;
+			left: 15%;
+		}
+		@media (max-width: 630px){
+			margin-top: 25rem;
+		}
+		@media (max-width: 468px){
+			width: 80%;
+			left: 10%;
+			margin-top: 28rem;
+		}
+		@media (max-width: 410px){
+			margin-top: 30rem;
+		}
+		.play{
+			position: relative;
+			z-index: 15;
+			/*margin: 0 auto;*/
+			height: 50px;
+			opacity: 1!important;
+			left: 43%;
+			top: 38%; 
+		}
+	}
+	.watch{
+		position: absolute;
+		font-family: $title;
+		font-weight: 700;
+		color: #000;
+		transform: rotate(-90deg);
+		margin-top: 27rem;
+		margin-left: 7rem;
+    	opacity: .5;
+    	@media (max-width: 1495px){
+    		margin-left: 5rem;
+    	}
+    	@media (max-width: 1440px){
+    		margin-left: 4rem;
+    	}
+    	@media (max-width: 1375px){
+    		margin-left: 3rem;
+    	}
+    	@media (max-width: 1295px){
+    		margin-left: 2rem;
+    	}
+		@media (max-width: 1185px){
+			display: none;
+		}
+	}
+}
+
+.trips-pullquote{
+	height: 80vh;
+	background: url('/wp-content/uploads/2019/06/Flycast-USA-Denver-Colorado-22.jpg');
+	background-size: cover;
+	background-position: center;
+	.dark-overlay{
+		height: 80vh;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		background: #000;
+		opacity: .65;
+	}
+	p{
+		position: relative;
+		z-index: 10;
+		text-align: center;
+		color: #fff;
+		font-family: $title;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 3rem;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 14%;
+		-webkit-text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		-moz-text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+	}
+	.quote{
+		height: 85px;
+		position: absolute;
+		opacity: .75;
+		z-index: 10;
+		left: 12%;
+		margin-top: 10%;
+	}
+}
+
+.trips-01{
+	padding-top: 150px;
+	padding-bottom: 50px;
+	.large01{
+		position: absolute;
+		font-family: $pt_sans;
+		font-size: calc(150px + 7vw);
+		font-weight: 900;
+		color: #ecdedc;
+		opacity: .4;
+		margin-top: -150px;
+		left: 30%;
+	}
+	.light-bg{
+		height: 100px;
+		width: 100px;
+		position: absolute;
+		z-index: 1;
+		left: 3%;
+		background: #ecdedc;
+		margin-top: -45px;
+	}
+	.img-left{
+		height: 200px;
+		margin-left: 12%;
+		position: relative;
+		z-index: 3;
+		margin-top: -75px;
+	}
+	.img-right{
+		height: 185px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: -75px;
+		    margin-top: 100px;
+	}
+	.col-right{
+		margin-right: 5%;
+		margin-left: 50px;
+		h2{
+			font-family: $title;
+			font-size: calc(30px + 3vw);
+			font-weight: 900;
+			color: #a15b54;
+			margin-top: 50px;
+		}
+		p{
+			margin-right: 75px;
+		}
+	}
+}
+
+.trips-02{
+	padding-top: 125px;
+	padding-bottom: 50px;
+	.large02{
+		position: absolute;
+		font-family: $pt_sans;
+		font-size: calc(150px + 7vw);
+		font-weight: 900;
+		color: #ecdedc;
+		opacity: .4;
+		margin-top: -200px;
+		left: 36%;
+	}
+	.col-left{
+		margin-left: 6%;
+		h2{
+			font-family: $title;
+			font-size: calc(30px + 3vw);
+			font-weight: 900;
+			color: #a15b54;
+			margin-top: 15px;
+		}
+		p{
+			margin-right: 75px;
+		}
+	}
+	.col-right{
+		.img-left{
+			height: 300px;
+		}
+		.img-right{
+			height: 150px;
+			width: 150px;
+			position: relative;
+			z-index: 10;
+			margin-left: -100px;
+		}
+		.light-bg{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			z-index: 1;
+			right: 9%;
+			background: #ecdedc;
+			margin-top: -200px;
+		}
+	}
+}
+
+.trips-03{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	.large03{
+		position: absolute;
+		font-family: "PT Sans";
+		font-size: calc(150px + 7vw);
+		font-weight: 900;
+		color: #ecdedc;
+		opacity: .4;
+		margin-top: 40px;
+		left: 30%;
+	}
+	.col-left{
+		.img-left{
+			height: 185px;
+			margin-left: 12%;
+			position: relative;
+			z-index: 3;
+			/* margin-top: -75px; */
+			margin-top: 25px;
+		}
+		.img-right {
+		    height: 200px;
+		    position: relative;
+		    z-index: 10;
+		    margin-left: -75px;
+		    margin-top: -150px;
+		}
+		.light-bg{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			z-index: 1;
+			left: 3%;
+			background: #ecdedc;
+			margin-top: -45px;
+		}
+	}
+	.col-right{
+		/*margin-right: 5%;*/
+		margin-left: 50px;
+		h2{
+			font-family: $title;
+			font-size: calc(30px + 3vw);
+			font-weight: 900;
+			color: #a15b54;
+			/*margin-top: 50px;*/
+		}
+		p{
+			margin-right: 75px;
+		}
+	}
+}
+

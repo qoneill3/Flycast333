@@ -1,0 +1,126 @@
+
+.river-index-hero{
+	margin-top: 50px;
+	height: 65vh;
+	width: 100%;
+	/*margin-bottom: 100px;*/
+	/*overflow: hidden;*/
+	.river-header-img{
+		width: 90%;
+		position: absolute;
+		z-index: 1;
+		top: 7rem;
+		margin-top: 25px;
+		margin-left: 6.5%;
+		height: 550px;
+		border-radius: 3px;
+		@media (max-width: 555px){
+		width: 87%;
+		margin-top: 0;
+		}
+	}
+
+	.big-title{
+		position: absolute;
+		top: 31rem;
+		right: 0%;
+		font-size: calc(99px + 3vw);
+		font-family: "source-sans-pro";
+		color: $light_red;
+		font-weight: 900;
+	}
+	.mobile-overlay{
+		display: none;
+		@media (max-width: 555px){
+			display: block;
+			position: absolute;
+			z-index: 3;
+			height: 550px;
+			width: 87%;
+			background: #000;
+			opacity: .5;
+			margin-left: 6.5%;
+			margin-top: -43px;
+		}
+	}
+
+	h1{
+		position: relative;
+		z-index: 10;
+		font-family: $title;
+		font-weight: 800;
+		color: #2e2e2e;
+		font-size: calc(20px + 2vw);
+	}
+	
+	.title{
+		margin-top: 100px;
+	}
+
+	.about-hero-p{
+		margin-left: 57%;
+		margin-top: -1rem;
+		font-size: 1.1rem;
+		position: relative;
+		z-index: 10;
+		margin-right: 8%;
+		@media (max-width: 555px){
+			position: relative;
+			z-index: 30;
+			margin-left: 13.5%;
+			width: 75%;
+			color: #fff;
+			text-align: center;
+		}
+		hr{
+			width: 50px;
+			text-align: left;
+			margin-left: 0;
+			background: #a15b54;
+			height: 3px;
+			position: relative;
+			z-index: 10;
+			margin-top: -1rem;
+			margin-bottom: 1rem;
+			@media screen only and (max-width: 963px){
+				margin-bottom: 1rem;
+			}
+			@media (max-width: 555px){
+				position: relative;
+				z-index: 30;
+				margin-left: 22.5%;
+			}
+		}
+		.arrow{
+		height: 28px;
+		margin-top: -15px;
+		margin-left: 3px;
+		@media (max-width: 555px){
+			display: none;
+			}
+		}
+	}
+}
+
+.river-slider{
+	padding-top: 75px;
+	background: $light_red;
+	h2{
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(45px + 2vw);
+		color: #2e2e2e;
+		margin-left: 8%;
+		letter-spacing: .25vw;
+	}
+	.river-gallery-wrap{
+		width: 85%;
+		margin: 0 auto;
+		margin-top: 25px;
+	}
+	.river-item{
+		
+			margin: 0 15px;
+		
+	}
+}

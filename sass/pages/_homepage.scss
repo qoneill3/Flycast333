@@ -1,0 +1,457 @@
+.hompage-hero{
+	height:75vh; 
+	width: 100%;
+	background: url('/wp-content/uploads/2019/09/FlycastUSA-Denver-Colorado-1.jpg');
+	background-size: cover;
+	background-position: center;
+	/*margin-top: 30px;*/
+	.red-stripe{
+		height: 15px;
+		background: $dark_red;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		bottom: 50px;
+	}
+}
+
+.bg-overlay{
+	height: 75vh;
+	width: 100%;
+	background: #000;
+	opacity: .65;
+	position: absolute;
+	z-index: 1;
+}
+
+.title{
+	margin-left: 5%;
+}
+
+.hero-h1{
+	 font-size: calc(75px + 3vw);
+	color: #fff;
+	position: relative;
+	z-index: 10;
+	font-family: $title;
+	font-weight: 900;
+	margin-bottom: .5rem;
+}
+
+.hero-h2{
+	color: #fff;
+	position: relative;
+	z-index: 10;
+	font-family: $title;
+	font-weight: 700;
+}
+
+.btn-wrap{
+	margin-top: 2rem;
+	position: relative;
+	z-index: 10;
+	width: 133px;
+	padding: 10px 25px;
+	border: 1px solid white;
+	border-radius: 2px;
+}
+
+.hero-cta{
+	text-align: center;
+	color: #fff!important;
+	margin: 0 auto;
+	font-family: $title;
+	font-weight: 900;
+}
+
+.faded-txt{
+	font-family: $title;
+	color: rgba(255,255,255,.25);
+	font-weight: 900;
+	font-size: 7rem;
+	line-height: 4.7rem;
+	position: absolute;
+	z-index: 10;
+	right: 17.5rem;
+	bottom: 7.4rem;
+	/*opacity: .25;*/
+}
+
+.faded-txt-2{
+	font-family: $title;
+	color: rgba(255,255,255,.25);
+	font-weight: 900;
+	font-size: 7rem;
+	line-height: 4.7rem;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	bottom: 2.7rem;
+	/*opacity: .25;*/
+}
+
+.scroll{
+	font-family: $title;
+	color: rgba(255,255,255,.5);
+	font-weight: 900;
+	position: absolute;
+	z-index: 10;
+	left: 6.5%;
+	bottom: 4rem;
+	/*opacity: .5;*/
+}
+
+.scroll-bar{
+	height: 2px;
+	border-right: 1px solid #fff;
+	position: absolute;
+	z-index: 10;
+	top: 560px;
+	left: 9%;
+	transition: all ease 2s;
+}
+.grow{
+	height: 5rem!important;
+	transition: all ease 2s;
+}
+
+.homepage-intro{
+	padding: 100px 15%;
+	background: $light_red;
+	.fish-svg{
+		position: absolute;
+		height: 100px;
+		margin-top: -1rem;
+		margin-left: -5rem;
+	}
+	h2{
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(30px + 2vw);
+		margin-bottom: 2rem;
+	}
+	.fish-svg-02{
+		position: absolute;
+		height: 100px;
+		right: 5rem;
+		bottom: -20rem;
+	}
+}
+
+.homepage-content{
+	padding-top: 50px;
+	overflow: hidden;
+	.left-img{ 
+		height: 450px;
+		width: 525px;
+		margin-left: 11%;
+		margin-top: 3%;
+		margin-right: 5rem;
+		position: relative;
+		z-index: 10;
+		-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+		border-radius: 3px;
+		@media (max-width: 1440px){
+			margin-left: 9%;
+			margin-right: 3rem;
+		}
+		@media (max-width: 1295px){
+			margin-right: 1rem;
+		}
+		@media (max-width: 1150px){
+			margin-left: 5%;
+			margin-right: 0;
+		}
+		@media (max-width: 991px){
+			margin: 0 auto;
+		}
+	}
+	.black-box{
+		height: 550px;
+		width: 40%;
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		background: #2e2e2e;
+		@media (max-width: 991px){
+			height: 350px;
+			width: 40%;
+		}
+	}
+	.content-right{
+		padding: 1rem;
+		padding-top: 4rem;
+		@media (max-width: 991px){
+			margin: 0 22% 0;
+			width: 60%!important;
+			padding-left: 0;
+			padding-top: 0;
+		}
+		h2{
+			margin-top: 4rem;
+			margin-left: 7rem;
+			font-family: $title;
+			font-weight: 900;
+			margin-bottom: 1rem;
+			font-size: calc(25px + 2vw);
+			color: #2e2e2e;
+			@media (max-width: 1052px){
+				margin-left: 3rem;
+				margin-top: 2rem;
+			}
+
+		}
+		p{
+			margin-left: 7rem;
+			@media (max-width: 1052px){
+				margin-left: 3rem;
+			}
+		}
+		.btn-wrap01{
+			padding: 10px 25px;
+	    border: 1px solid #a15b54;
+	    border-radius: 2px;
+	    margin-left: 7rem;
+	    width: 148px;
+	    @media (max-width: 1052px){
+				margin-left: 3rem;
+			}
+		}
+		.cta{
+			text-align: center;
+			color: #a15b54;;
+			margin: 0 auto;
+			font-family: $title;
+			font-weight: 900;
+				}
+	}
+	.row02{
+		overflow: hidden;
+		margin-top: 100px;
+		.content-left{
+			margin-left: 9%;
+			padding: 2rem;
+			padding-top: 4rem;
+			@media (max-width: 1351px){
+				margin-left: 6%;
+			}
+			@media (max-width: 991px){
+				margin-left: 22%;
+				margin-top: 400px;
+				
+			}
+			h2{
+				margin-top: 4rem;
+				font-family: $title;
+				font-weight: 900;
+				margin-bottom: 1rem;
+				font-size: calc(25px + 2vw);
+				color: #2e2e2e;
+			}
+			p{
+				width: 80%;
+				@media (max-width: 991px){
+					width: 500px;
+				}
+			}
+			.btn-wrap02{
+				padding: 10px 25px;
+				border: 1px solid #a15b54;
+				border-radius: 2px;
+				width: 148px;
+			}
+			.cta{
+				text-align: center;
+				color: #a15b54;
+				margin: 0 auto;
+				font-family: $title;
+				font-weight: 900;
+				}
+			}
+			.right-img{
+			height: 450px;
+			width: 525px;
+			margin-left: 4.5%;
+			margin-top: 3%;
+			position: relative;
+			z-index: 10;
+			-webkit-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+			-moz-box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+			box-shadow: 11px 11px 30px -9px rgba(105,101,105,1);
+			border-radius: 3px;
+			@media (max-width: 1275px){
+				margin-left: 2%;
+			}
+			@media (max-width: 1075px){
+				margin-left: 0;
+			}
+			@media (max-width: 991px){
+				position: absolute;
+				margin: 0 auto;
+				left: 24%;
+			}
+			@media (max-width: 900px){
+				left: 21%;
+			}
+			@media (max-width: 800px){
+				left: 17.5%;
+			}
+			@media (max-width: 710px){
+				left: 14.5%
+			}
+			@media (max-width: 630px){
+				left: 8%;
+			}
+			@media (max-width: 575px){
+				left: 4%;
+			}
+		}
+		.black-box02{
+		height: 550px;
+		width: 40%;
+		position: absolute;
+		z-index: 1;
+		right: 0;
+		background: #2e2e2e;
+		@media (max-width: 991px){
+			height: 350px;
+		}
+		}
+	}
+}
+
+.blog-section{
+	padding: 100px;
+	h2{
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(30px + 2vw);
+	}
+	h1 {
+		font-size: calc(6px + 1vw);
+		height: 5vw; 
+	}
+}
+ 
+.homepage-pullquote{
+	height: 80vh;
+	background: url('/wp-content/uploads/2019/09/FlycastUSA-Denver-Colorado-5.jpg');
+	background-size: cover;
+	background-position: center;
+	.dark-overlay{
+		height: 80vh;
+		position: absolute;
+		z-index: 1;
+		width: 100%;
+		background: #000;
+		opacity: .75;
+	}
+	p{
+		position: relative;
+		z-index: 10;
+		text-align: center;
+		color: #fff;
+		font-family: $title;
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 3rem;
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 14%;
+		-webkit-text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		-moz-text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		text-shadow: 3px 3px 3px rgba(1,1,5,0.8);
+		@media (max-width: 890px){
+			font-size: 2rem;
+			padding-top: 25%;
+		}
+	}
+	.quote{
+		height: 85px;
+		position: absolute;
+		opacity: .75;
+		z-index: 10;
+		left: 12%;
+		margin-top: 10%;
+	}
+}
+
+.newsletter{
+	padding: 50px 0;
+	background: #ecdedc;
+	.river-svg{
+		position: absolute;
+		height: 315px;
+		z-index: 1;
+		margin-top: -50px;
+	}
+	h2{
+		font-family: $title;
+		font-weight: 900;
+		color: #2e2e2e;
+		font-size: calc(20px + 2vw);
+		margin-bottom: 1rem;
+		-webkit-text-shadow: 3px 3px 3px rgba(1,1,5,0.3);
+		-moz-text-shadow: 3px 3px 3px rgba(1,1,5,0.3);
+		text-shadow: 3px 3px 3px rgba(1,1,5,0.3);
+	}
+	.field{
+		margin: 25px;
+		padding: 10px;
+		position: relative;
+		z-index: 10;
+		&::placeholder{
+			font-family: $title;
+			margin-left: 50px!important;
+		}
+	}
+	.btn-wrap03{
+		/*max-width: 10%;*/
+		padding: 10px 25px;
+		border: 1px solid #000;
+		border-radius: 2px;
+		background: #a15b54;
+		text-align: center;
+		margin-top: 1rem;
+		a{
+			text-align: center;
+			color: #fff;
+			margin: 0 auto;
+			font-family: $title;
+			font-weight: 900;
+			font-size: 18px;
+		}
+	}
+}
+
+.insta{
+	width: 100%;
+	overflow: hidden;
+	padding: 50px 0;
+	.popup-gallery{
+		list-style-type: none;
+		margin-left: 0;
+	}
+	.handle{
+		margin: 0 auto;
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(25px + 2vw); 
+		color: #000;
+	}
+	.instagallery-items{
+		margin-left: 5.5%!important;
+	}
+	.ig-item{
+		padding: 25px!important;
+		margin: -12px!important;
+	}
+}
+
+.testimonials{
+
+}
+
+

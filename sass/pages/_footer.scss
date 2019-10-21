@@ -1,0 +1,73 @@
+.site-footer{
+	background: #2e2e2e;
+	margin-bottom: 0;
+	padding: 50px 25px 25px;
+	.footer-logo{
+		height: 80px;
+		margin-left: 5%;
+	}
+	.footer-btn-wrap{
+		margin-top: 2.5rem;
+		position: absolute;
+		z-index: 10;
+		width: 11%;
+		padding: 10px 25px;
+		border: 1px solid white;
+		border-radius: 2px;
+		left: 7%;
+	}
+
+	.cta{
+		text-align: center;
+		color: #fff!important;
+		margin: 0 auto;
+		font-family: $title;
+		font-weight: 900;
+	}
+	h3 {
+		color: #fff;
+		font-family: $title;
+		font-weight: 900;
+		font-size: calc(10px + 1vw);
+		margin-top: 3vw;
+	}
+	.nav1, .nav2, .nav3, .nav4{
+		padding: 1rem;
+		margin: 0 auto;
+		padding-right: 0;
+		padding-left: 2rem;
+		ul{
+			list-style-type: none;
+			margin-left: -3.2vw;
+			li{
+				margin: 1vw 0;
+			}
+			a{
+				color: #fafafa;
+				font-family: $title;
+				font-weight: 600;
+				opacity: .8;
+				&:hover{
+					opacity: 1;
+				}
+			}
+			.social-icon{
+				height: 18px;
+			}
+		}
+	}
+	.nav1{
+		margin-right: -2vw;
+		margin-left: 14vw;
+	}
+	.nav3{
+		margin-left: -4vw;
+	}
+	.nav4{
+		margin-left: -2vw;
+	}
+}
+
+.page{
+	margin-bottom: 0!important;
+}
